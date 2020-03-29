@@ -9,7 +9,7 @@
     height: 265px;
 }
 
-h1, h2, p, button, .box{
+h1, h2, p, button, .wrapper{
     margin-left: 25%; 
 }
 
@@ -70,9 +70,34 @@ li a:hover{
 }
 
 /*farver*/
+.wrapper{
+    display: flex; 
+    flex-wrap: wrap;
+    padding-bottom: 3em;
+}
+
+.farve{
+    margin-right: 30px;
+    border: 1px solid #ebebeb;
+    box-shadow: 1px 1px 4px #ebebeb; 
+}
+
+.farve-navn{
+    font-size: 1.3em;
+    text-align: left; 
+    padding: 5px 15px; 
+}
+
+.description { 
+    text-align: left;
+    padding: 5px 15px; 
+    color: #8e8e8e;
+}
+
 .box{
     width: 200px; 
     height:100px; 
+    
 }
 
 .roed{
@@ -81,5 +106,8 @@ li a:hover{
 
 .hvid{
     background-color: #fff; 
-    border: 0.5px solid #ebebeb; 
+}
+
+.sort{
+    background-color: #000; 
 }
