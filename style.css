@@ -44,6 +44,36 @@ p{
     margin-top: -1em;
 }
 
+/*Koder*/
+.code-container{
+    background-color: #fff; 
+    border-radius: 3px; 
+    color: #333;
+    margin: 20px 0; 
+    margin-left: 25%; 
+    text-transform: none; 
+    display: block; 
+    border: 1px solid #ddd;
+    width: 70%;
+}
+
+.code-container header{
+    background-color: #f2f2f2;
+    border-radius: 3px 3px 0 0; 
+    padding: 8px 10px; 
+    border-bottom: 1px solid #ddd;
+    font-size: 1.5em;
+}
+
+.code-container p, xmp{
+    background-color: #fff;
+    border-radius: 3px 3px 0 0; 
+    padding: 8px 10px; 
+    border-bottom: 1px solid #ddd;
+    font-size: 1em;
+    margin-left: 0; 
+}
+
 /*Navigation*/
 ul{
     list-style-type: none; 
@@ -161,7 +191,7 @@ li a:hover{
 }
 
 .montserrat{
-    font-family: "Montserrat", sans-serif;
+    font-family: "montserrat", sans-serif;
 }
 
 .font-preview{
