@@ -50,9 +50,7 @@ ul{
     width: 20%;
     background-color: #C31414;
     position: fixed; 
-    height: 100%; 
-    position: fixed; 
-    overflow: auto; 
+    height: 100%;  
 }
 
 ul li{
@@ -75,6 +73,26 @@ li a.active{
 li a:hover{
     background-color: #fff; 
     color: #C31414; 
+}
+
+.main-menu li:hover .sub-menu{
+    display: block; 
+    max-height: 200px; 
+}
+
+.sub-menu a{
+    background-color: #ffffff;
+    color: #C31414; 
+}
+
+.sub-menu a:hover{
+    border: 1px solid #C31414;  
+}
+
+.sub-menu{
+    overflow: hidden; 
+    max-height: 0;
+    transition: all 0.5s ease-out; 
 }
 
 /*typografi*/
