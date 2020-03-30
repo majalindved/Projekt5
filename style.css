@@ -1,5 +1,5 @@
 *{
-    font-family: "Raleway", sans-serif; 
+    font-family: "Raleway", sans-serif;
     margin: 0; 
     padding: 0; 
 }
@@ -146,6 +146,10 @@ li a:hover{
 
 .bold{
     font-weight: 700; 
+}
+
+.turbinado{
+    font-family: "dancing script", cursive; 
 }
 
 .font-preview{
