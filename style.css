@@ -9,7 +9,7 @@
     height: 265px;
 }
 
-h1, h2, h3, p, button, .wrapper{
+h1, h2, h3, p, button, .wrapper, .fonts{
     margin-left: 25%; 
 }
 
@@ -75,6 +75,99 @@ li a.active{
 li a:hover{
     background-color: #fff; 
     color: #C31414; 
+}
+
+/*typografi*/
+.fonts{
+    margin-bottom: 30px;
+}
+
+.family-name{
+    color: #333; 
+    font-size: 18px; 
+    line-height: 1.3; 
+    font-weight: 700; 
+    text-transform: none; 
+    font-style: normal; 
+    text-decoration: none; 
+    margin-top: 0; 
+    margin-bottom: 10px; 
+    letter-spacing: normal; 
+    margin-left: 0;
+}
+
+.font-row{
+    margin: 30px 0; 
+    box-sizing: border-box; 
+}
+
+.font-row:before, .font-row:after{
+    content: "";
+    display: table; 
+}
+
+.font-col{
+    float: left
+}
+
+.font-col:first-child{
+    width: 150px;  
+}
+
+.font-col:nth-child(2){
+    width: 450px; 
+}
+
+.font-col:nth-child(3){
+    width: 160px; 
+}
+
+.font-preview-character{
+    font-style: normal; 
+    display: block; 
+    font-size: 90px; 
+    color: #333; 
+}
+
+.light{
+    font-weight: 300; 
+}
+
+.regular{
+    font-weight: 400; 
+}
+
+.font-preview{
+    font-weight: 300; 
+    font-style: normal; 
+    display: block; 
+    font-size: 18px; 
+    color: #333; 
+    margin-top: 5px; 
+    line-height: 1.5;  
+    padding: 0 20px 0 0; 
+    margin-right: 30px; 
+    box-sizing: border-box; 
+    border-right: 2px solid #eee; 
+}
+
+.font-name{
+    display: block; 
+    color: #000; 
+    line-height: 1.5; 
+    margin-top: 5px; 
+    font-size: 0.9em; 
+    margin-bottom: 5px; 
+}
+
+.font-weight, .font-style{
+    color: #333; 
+    font-size: 13px; 
+    margin-bottom: 5px;
+}
+
+.font-row:after{
+    clear: both; 
 }
 
 /*farver*/
