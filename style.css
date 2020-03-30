@@ -137,7 +137,7 @@ li a:hover{
 }
 
 .medium{
-    font-weight: 400; 
+    font-weight: 500; 
 }
 
 .semibold{
@@ -148,8 +148,20 @@ li a:hover{
     font-weight: 700; 
 }
 
+.ekstra-bold{
+    font-weight: 800; 
+}
+
+.black{
+    font-weight: 900; 
+}
+
 .turbinado{
     font-family: "dancing script", cursive; 
+}
+
+.montserrat{
+    font-family: "Montserrat", sans-serif;
 }
 
 .font-preview{
