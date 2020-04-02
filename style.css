@@ -31,24 +31,6 @@ p{
     padding-bottom: 1.5em;
 }
 
-.img-wrapper{
-    margin-left: 25%;
-    display: flex; 
-    flex-wrap: wrap;
-    margin-bottom: 60px; 
-}
-
-img{
-    padding: 0 0 30px 0; 
-    margin-right: 25px;
-}
-
-#gray-bg{
-    background-color: #d0d0d0;
-    padding: 25px;
-    margin-bottom: 30px; 
-}
-
 #no-left-margin{
     margin-left: 0; 
 }
@@ -94,6 +76,36 @@ img{
     border-bottom: 1px solid #ddd;
     font-size: 1em;
     margin-left: 0; 
+}
+
+/*Logoer*/
+.img-wrapper{
+    margin-left: 25%;
+    display: flex; 
+    flex-wrap: wrap;
+    margin-bottom: 60px; 
+}
+
+.img{
+    padding: 0 0 30px 0; 
+    margin-right: 25px;
+}
+
+.logo-img{
+    border-bottom: 1px solid #ebebeb; 
+}
+
+#gray-bg{
+    background-color: #d0d0d0;
+    padding: 25px;
+    margin-bottom: 30px; 
+}
+
+.logoer{
+    border: 1px solid #ebebeb;
+    box-shadow: 1px 1px 4px #ebebeb; 
+    margin-bottom: 30px;
+    margin-right: 25px; 
 }
 
 /*Navigation*/
