@@ -43,6 +43,12 @@ img{
     margin-right: 25px;
 }
 
+#gray-bg{
+    background-color: #d0d0d0;
+    padding: 25px;
+    margin-bottom: 30px; 
+}
+
 #no-left-margin{
     margin-left: 0; 
 }
