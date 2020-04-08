@@ -2,4 +2,134 @@
     font-family: "Raleway", sans-serif;
     margin: 0; 
     padding: 0; 
+    box-sizing: border-box;
+}
+
+/*Opret profil*/ 
+.form-op{
+    background-color: #F8F7F4;
+    height: 100vh;
+}
+
+.header-container-op{
+    text-align: center; 
+    padding: 24px 0 0; 
+}
+
+.header-container-op img{
+    height: 40px; 
+}
+
+.h1-op{
+    font-size: 20px;
+    padding: 16px 0 12px;
+}
+
+.container-op{
+    display: flex; 
+    flex-direction: column;
+    padding: 20px 40px 40px; 
+}
+
+label{
+    font-size: 12px; 
+}
+
+input[type=text], input[type=password]{
+    width: 100%;
+    padding: 12px; 
+    margin: 5px 0 20px; 
+    display: inline-block; 
+    border: none;
+    background-color: #fff;
+    border-radius: 5px; 
+    font-size: 12px; 
+    border: 1px solid rgba(204, 204, 204, 0.5); 
+}
+
+::placeholder{
+    font-size: 12px; 
+    color: #ccc; 
+}
+
+/*Internet explorer*/
+:-ms-input-placeholder{
+    font-size: 12px; 
+    color: #ccc;
+}
+
+/*Microsoft edge*/
+::-ms-input-placeholder{
+    font-size: 12px; 
+    color: #ccc;
+}
+
+.showHide-password{
+    display: flex; 
+    flex-direction: row; 
+}
+
+.nyhedsmail-op{
+    margin-bottom: 40px; 
+}
+
+.buttons-op{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.btn-op{
+    padding: 12px; 
+    margin: 8px 0; 
+    cursor: pointer; 
+    width: 50%; 
+}
+
+.btn-roed{
+    background-color: #C31414;
+    color: #fff; 
+    border-radius: 5px; 
+    border: 2px solid #C31414;
+}
+
+.btn-hvid{  
+    background-color: #fff; 
+    border-radius: 5px; 
+    border: 2px solid #C31414;
+}
+
+.btn-hvid a{
+    color: #C31414; 
+    text-decoration: none; 
+}
+
+.btn-op:active{
+    font-weight: 600; 
+    outline: none; 
+}
+
+.bottom-op{ 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.bottom-op img{
+    height: 14px; 
+    width: 14px; 
+}
+
+.bottom-op p{
+    font-size: 8px;
+    padding-left: 12px; 
+}
+
+.bottom-op p a{
+    color: #C31414; 
+    text-decoration: none; 
+}
+
+.bottom-op p a:active{
+    font-weight: 600; 
 }
