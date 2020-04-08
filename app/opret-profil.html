@@ -11,12 +11,26 @@
     
     <body>
         <form>
-            <input type="text" name="name" placeholder="Navn">
-            <input type="text" name="email" placeholder="E-mail">
-            <input type="password" name="password" placeholder="Adgangskode">
-            <input type="password" name="password-repeat" placeholder="Gentag adgangskode">
-            <button type="submit" name="signup-submit">Opret profil</button>
-    <!--Her mangler en checkbox med deres nyhedsbreve-->        
+            <div class="img-container-op">
+                <img src="/img/coop-logo.png" alt="Coops logo">
+                <h1 class="h1-op">Opret profil</h1>
+            </div>
+            
+            <div class="container-op">
+                <label for="name">Navn</label>
+                <input type="text" name="name" placeholder="Navn">
+                <label for="email">E-mail</label>
+                <input type="text" name="email" placeholder="E-mail">
+                <label for="password">Adgangskode</label>
+                <input type="password" name="password" placeholder="Adgangskode">
+                <label for="password-repeat">Gentag adgangskode</label>
+                <input type="password" name="password-repeat" placeholder="Gentag adgangskode">
+                <button type="submit" name="signup-submit">Opret profil</button>
+                <button><a href="index.html">Annuller</a></button>
+                <label>
+                    <input type="checkbox" checked="checked" name="nyhedsmail"> Ja tak, Coop må gerne sende my tilbud på e-mail
+                </label>
+            </div>
         </form>
     </body>
 </html>
