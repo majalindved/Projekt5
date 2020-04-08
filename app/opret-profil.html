@@ -6,30 +6,36 @@
         <meta name=viewport content="width=device-width, initial-scale=1">
         <title>Coop App</title>
         <link rel="stylesheet" href="style.css"> 
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway&display=swap">
+        <link rel="stylesheet" href="javascript.js"> href="https://fonts.googleapis.com/css?family=Raleway&display=swap">
     </head>
     
     <body>
-        <form>
-            <div class="img-container-op">
+        <form class="form-op">
+            <div class="header-container-op">
                 <img src="/img/coop-logo.png" alt="Coops logo">
-                <h1 class="h1-op">Opret profil</h1>
+                <h1 class="h1-op"><b>Opret profil</b></h1>
             </div>
             
             <div class="container-op">
-                <label for="name">Navn</label>
+                <label for="name"><b>Navn</b></label>
                 <input type="text" name="name" placeholder="Navn">
-                <label for="email">E-mail</label>
+                <label for="email"><b>E-mail</b></label>
                 <input type="text" name="email" placeholder="E-mail">
-                <label for="password">Adgangskode</label>
-                <input type="password" name="password" placeholder="Adgangskode">
-                <label for="password-repeat">Gentag adgangskode</label>
-                <input type="password" name="password-repeat" placeholder="Gentag adgangskode">
-                <button type="submit" name="signup-submit">Opret profil</button>
-                <button><a href="index.html">Annuller</a></button>
+                <label for="password"><b>Adgangskode</b></label>
+                <input type="password" name="password" placeholder="Adgangskode" id="password">
+                <label for="password-repeat"><b>Gentag adgangskode</b></label>
+                <input type="password" name="password-repeat" placeholder="Gentag adgangskode" id="password-repeat">
                 <label>
-                    <input type="checkbox" checked="checked" name="nyhedsmail"> Ja tak, Coop må gerne sende my tilbud på e-mail
+                    <input class="nyhedsmail-op" type="checkbox" checked="checked" name="nyhedsmail"> Ja tak, Coop må gerne sende mig tilbud på e-mail
                 </label>
+                <div class="buttons-op">
+                    <button class="btn-op btn-roed" type="submit" name="signup-submit">Opret profil</button>
+                    <button class="btn-op btn-hvid"><a href="index.html">Annuller</a></button>
+                </div>
+            </div>
+            <div class="bottom-op">
+                <img src="/img/grey.jpg" alt="">
+                <p>Coop tager din sikkerhed alvorligt. Læs om <a href="">Coops datapolitik.</a></p>
             </div>
         </form>
     </body>
