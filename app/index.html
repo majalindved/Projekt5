@@ -10,12 +10,26 @@
     </head>
 
     <body>
-        <h1>Log ind</h1>
-        <form>
-            <input type="text" name="mail" Placeholder="E-mail">
-            <input type="text" name="password" Placeholder="Adgangskode">
-            <button type="submit" name="login-submit">Log ind</button>
-            <button><a href="opret-profil.html">Opret bruger</a></button> 
+        <form class="form-index">
+            <div class="header-container-index">
+                <img src="/img/coop-logo.png">
+            </div>
+            <div class="container-index">
+                <label for="name"><b>E-mail</b></label>
+                <input type="text" name="mail" Placeholder="E-mail">
+                <label for="name"><b>Adgangskode</b></label>
+                <input type="text" name="password" Placeholder="Adgangskode">
+                <div class="glemt-password">
+                    <p><a href="">Glemt adgangskode?</a></p>
+                </div>
+                <div class="buttons-index">
+                    <button class="btn-index btn-roed" type="submit" name="login-submit">Log ind</button>
+                    <button class="btn-index btn-hvid"><a href="opret-profil.html">Opret bruger</a></button>
+                </div>
+            </div>
+            <div class="bottom-index">
+                <p><a href="">Prøv app'en uden at logge ind - kvit og frit!</a></p>
+            </div>
         </form>
         
     </body>
