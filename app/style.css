@@ -4,6 +4,77 @@
     padding: 0; 
     box-sizing: border-box;
 }
+/*Index (Log ind)*/
+.form-index{
+    background-color: #F8F7F4;
+    height: 100vh;  
+}
+
+.header-container-index{
+    text-align: center; 
+    padding: 48px 0; 
+}
+
+.header-container-index img{
+    height: 40px; 
+}
+
+.container-index{
+    display: flex; 
+    flex-direction: column;
+    padding: 20px 40px 40px; 
+}
+.glemt-password{
+    display: flex; 
+    justify-content: center; 
+    font-size: 12px; 
+    padding-bottom: 12px; 
+}
+
+.glemt-password p a{
+    color: #333; 
+    text-decoration: none; 
+}
+
+.glemt-password p a:active{
+    font-weight: 600; 
+}
+
+.buttons-index{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.btn-index{
+    padding: 12px; 
+    margin: 8px 0 16px;; 
+    cursor: pointer; 
+    width: 60%; 
+}
+
+.btn-index:active{
+    font-weight: 600; 
+    outline: none; 
+}
+
+.bottom-index{  
+    display: flex; 
+    justify-content: center; 
+}
+
+.bottom-index p{
+    font-size: 12px; 
+}
+
+.bottom-index p a{
+    color: #333; 
+    text-decoration: none; 
+}
+
+.bottom-index p a:active{
+    font-weight: 600; 
+}
 
 /*Opret profil*/ 
 .form-op{
@@ -81,9 +152,9 @@ input[type=text], input[type=password]{
 
 .btn-op{
     padding: 12px; 
-    margin: 8px 0; 
+    margin: 8px 0 16px; 
     cursor: pointer; 
-    width: 50%; 
+    width: 60%; 
 }
 
 .btn-roed{
