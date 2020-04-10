@@ -22,55 +22,25 @@ body {
   color: white;
 }
 
-#header + .content {
+#header + .welcome {
   padding-top: 50px;
 }
 
-/* Food gallery */
-
-.gallery-content {
-  color: black;
-  margin-top: 70px;
-  margin-left: 10px;
+/* Frontpage */
+.row {
+  display: flex;
 }
 
-.gallery-content h1 {
-  text-align: center;
+.column {
+  flex: 30%;
+  padding: 5px;
+}
+@media screen and (max-width: 100px) {
+  .column {
+    width: 100%;
+  }
 }
 
-.inspiration {
-  margin-top: 20px;
-}
-
-
-.gallery {
-  margin:10px;
-  margin-top: 50px;
-  border-top: 100px;
-  position: relative;
-  float: left;
-  width: 110px;
-}
-
-.gallery img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2) ;
-}
-
-.text-block {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  background-color: white;
-  opacity: 60%;
-}
-
-.text-block h4 {
-  color: black;
-  text-align: center;
-}
 /* Navigations stil */
 
 .nav {
