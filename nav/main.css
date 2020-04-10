@@ -2,7 +2,7 @@ body {
   margin: 0 0 55px 0;
   font-family: 'raleway';
 }
-
+/*Header*/
 #header {
   background-color: #C31414;
   padding: 10px 10px;
@@ -26,6 +26,51 @@ body {
   padding-top: 50px;
 }
 
+/* Food gallery */
+
+.gallery-content {
+  color: black;
+  margin-top: 70px;
+  margin-left: 10px;
+}
+
+.gallery-content h1 {
+  text-align: center;
+}
+
+.inspiration {
+  margin-top: 20px;
+}
+
+
+.gallery {
+  margin:10px;
+  margin-top: 50px;
+  border-top: 100px;
+  position: relative;
+  float: left;
+  width: 110px;
+}
+
+.gallery img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2) ;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background-color: white;
+  opacity: 60%;
+}
+
+.text-block h4 {
+  color: black;
+  text-align: center;
+}
 /* Navigations stil */
 
 .nav {
@@ -191,7 +236,7 @@ body {
 
 
 
-/* ikke en style, men fra icomoon, så ikonerne kan virke på siden. 
+/* ikke en style, men fra icomoon, så ikonerne kan virke på siden.
 Er klar over når, man validere koden, så vil den komme med fejl på linje 194*/
 
 [class^="icon-"], [class*=" icon-"] {
