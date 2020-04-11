@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="da-DK">
+<head>
+    <title>Profilside</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+    <body>
+    <!-- Header-->
+   <div id="header">Coop</div>
+   <!-- Frontpage-->
+   <img src="images/profilcover.jpg" alt="">
+<div class="profilepage">
+  <h2>Profil</h2>
+
+  <div class="profile-menu">
+    <a href="#">Dine kontaktoplysninger</a>
+    <a href="#">Personlige detaljer</a>
+    <a href="#">Adresse</a>
+  </div>
+
+    <h2>Sikkerhed</h2>
+
+    <div class="profile-menu">
+      <a href="#">Brugerbetingelse</a>
+      <a href="#">Dataeskyttelse</a>
+    </div>
+</div>
+
+    <nav class="nav">
+        <a href="nav.html" class="nav__link nav__link--active">
+            <i class="icon-hjem2 nav__icon"></i>
+            <span class="nav__text">Hjem</span>
+        </a>
+        <a href="indk.html" class="nav__link">
+            <i class="icon-liste2 nav__icon"></i>
+            <span class="nav__text">Lister</span>
+        </a>
+       <!-- // Knappen til genvej at lave en indkøbsliste. Kommer et modal popup //  -->
+
+       <button id="modal-btn" class="button">
+        <i class="icon-plus1 nav__icon"></i></button>
+            <div id="my-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                  <div class="modal-body">
+                    <h1>Du er i gang med at oprette en ny liste.
+                        <br>
+                        <br>Vil du fortsætte?</h1>
+                      <a href="indk.html" class="button_modal">Ja</a>
+                      <a href="nav.html" class="button_modal1">Nej</a>
+                  </div>
+                </div>
+              </div>
+               <script src="main.js"></script>
+
+               <a href="#" class="nav__link">
+            <i class="icon-butik nav__icon"></i>
+            <span class="nav__text">Butikker</span>
+        </a>
+        <a href="#" class="nav__link">
+            <i class="icon-profil2 nav__icon"></i>
+            <span class="nav__text">Profil</span>
+        </a>
+    </nav>
+
+    </body>
+</html>
