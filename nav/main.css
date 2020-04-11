@@ -55,8 +55,8 @@ body {
 }
 
 .column1 img{
- padding: 5px;
- border-radius: 5%;
+ border-radius: 5px;
+ box-shadow: 5px;
 
 }
 .welcome h1 , p {
@@ -65,6 +65,10 @@ body {
 
 .welcome h1 , p , h3 {
   text-align: center;
+}
+
+.tekst {
+  font-weight: 900;
 }
 
 .tekst h4 {
