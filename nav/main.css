@@ -53,6 +53,12 @@ body {
   max-width: 200px;
   height: auto;
 }
+
+.column1 img{
+ padding: 5px;
+ border-radius: 5%;
+
+}
 .welcome h1 , p {
   padding: 5px;
 }
@@ -66,8 +72,20 @@ body {
   padding: 5px;
 }
 
-@media screen and (max-width: 200px) {
+/*@media screen and (max-width: 200px) {
   .column , .column1 {
+    width: 100%;
+  }*/
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
     width: 100%;
   }
 }
