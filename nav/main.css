@@ -32,10 +32,41 @@ body {
 }
 
 .column {
-  flex: 30%;
+  flex: 33.33%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5px;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+.row1 {
+  display: flex;
+}
+
+.column1 {
+  flex: 33.33%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5px;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+.welcome h1 , p {
   padding: 5px;
 }
-@media screen and (max-width: 100px) {
+
+.welcome h1 , p , h3 {
+  text-align: center;
+}
+
+.tekst h4 {
+  text-align: left;
+  padding: 5px;
+}
+
+@media screen and (max-width: 200px) {
   .column {
     width: 100%;
   }
