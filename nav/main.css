@@ -45,7 +45,6 @@ body {
 
 .column1 img{
  border-radius: 5px;
- box-shadow: 5px;
 
 }
 .welcome h1 , p {
@@ -168,10 +167,14 @@ body {
     text-align: center;
   }
 
+  .modal-body p {
+    font-weight: bold;
+  }
+
   /* Ja knappens stil */
     .button_modal {
       background-color: #C31414;
-  	  border: 1px solid #C31414;
+  	  border: 1px solid none;
       border-radius: 30px;
   	  text-decoration: none;
   	  padding: 10px 28px;
@@ -188,7 +191,7 @@ body {
   /* nej knappens stil */
   .button_modal1 {
       background-color: white;
-  	  border: 1px solid #C31414;
+  	  border: 1px solid none;
   	  border-radius: 30px;
   	  text-decoration: none;
   	  padding: 10px 28px;
@@ -297,7 +300,6 @@ Er klar over når, man validere koden, så vil den komme med fejl på linje 194*
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
