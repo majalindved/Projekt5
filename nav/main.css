@@ -28,19 +28,7 @@ body {
 }
 
 /* Frontpage */
-.row {
-  display: flex;
-}
 
-.column {
-  flex: 33.33%;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 5px;
-  width: 100%;
-  max-width: 200px;
-  height: auto;
-}
 .row1 {
   display: flex;
 }
