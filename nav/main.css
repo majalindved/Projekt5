@@ -45,6 +45,7 @@ body {
 
 .column1 img{
  border-radius: 5px;
+ width: 100%;
 
 }
 .welcome h1 , p {
