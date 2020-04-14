@@ -308,9 +308,6 @@ Er klar over når, man validere koden, så vil den komme med fejl på linje 194*
   text-transform: none;
   line-height: 1;
 
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 .icon-butik:before {
