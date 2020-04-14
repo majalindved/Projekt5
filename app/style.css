@@ -4,6 +4,7 @@
     padding: 0; 
     box-sizing: border-box;
 }
+
 /*Index (Log ind)*/
 .form-index{
     background-color: #F8F7F4;
@@ -17,6 +18,11 @@
 
 .header-container-index img{
     height: 40px; 
+}
+
+.h1-index{
+    font-size: 20px;
+    padding: 16px 0 12px;
 }
 
 .container-index{
@@ -154,11 +160,11 @@ input[type=text], input[type=password]{
     padding: 12px; 
     margin: 5px 0 20px; 
     display: inline-block; 
-    border: none;
     background-color: #fff;
     border-radius: 5px; 
     font-size: 12px; 
     border: 1px solid rgba(204, 204, 204, 0.5); 
+    outline: none; 
 }
 
 ::placeholder{

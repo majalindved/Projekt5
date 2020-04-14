@@ -28,19 +28,7 @@ body {
 }
 
 /* Frontpage */
-.row {
-  display: flex;
-}
 
-.column {
-  flex: 33.33%;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 5px;
-  width: 100%;
-  max-width: 200px;
-  height: auto;
-}
 .row1 {
   display: flex;
 }
@@ -57,7 +45,7 @@ body {
 
 .column1 img{
  border-radius: 5px;
- box-shadow: 5px;
+ width: 100%;
 
 }
 .welcome h1 , p {
@@ -68,16 +56,18 @@ body {
   text-align: center;
 }
 
-.tekst h4 {
+.tekst h4 , h5 {
   text-align: left;
   padding: 5px;
-  font-weight: 900
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: black;
 }
 
-/*@media screen and (max-width: 200px) {
-  .column , .column1 {
-    width: 100%;
-  }*/
+.tekst h5 {
+  color: #C31414;
+}
 
 @media only screen and (max-width: 700px) {
   .responsive {
@@ -176,12 +166,17 @@ body {
     background: #e9e4e4;
     color: black;
     text-align: center;
+    font-size: 18px;
+  }
+
+  .modal-body p {
+    font-weight: bold;
   }
 
   /* Ja knappens stil */
     .button_modal {
       background-color: #C31414;
-  	  border: 1px solid #C31414;
+  	  border: 1px solid none;
       border-radius: 30px;
   	  text-decoration: none;
   	  padding: 10px 28px;
@@ -198,7 +193,7 @@ body {
   /* nej knappens stil */
   .button_modal1 {
       background-color: white;
-  	  border: 1px solid #C31414;
+  	  border: 1px solid none;
   	  border-radius: 30px;
   	  text-decoration: none;
   	  padding: 10px 28px;
@@ -213,24 +208,23 @@ body {
       cursor: pointer;
   }
   .button_modal , .button_modal1 {
-    margin-right: 10px;
-    margin-left: 10px;
-    font-weight: bold;
+      margin-right: 10px;
+      margin-left: 10px;
+      font-weight: bold;
   }
 
 /* Stilen på lukkeknappen */
   .close {
-    color: black;
-    float: right;
-    font-size: 30px;
-    color: black;
+      color: black;
+      float: right;
+      font-size: 30px;
+      color: black;
   }
 
   .close:hover,
   .close:focus {
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
+      color: white;
+      text-decoration: none;
   }
 
   @keyframes modalopen {
@@ -241,6 +235,7 @@ body {
       opacity: 1;
     }
   }
+
 
 /*Profilepage*/
 #header + .profilepage h2{
@@ -264,45 +259,58 @@ body {
   box-shadow:5px 5px 5px rgba(0,0,0,0.2);
 }
 
+.log-ud {
+  display: grid;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.log-ud a{
+  padding: 15px;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 15px;
+  border-radius: 5px;
+  color: #C31414;
+  font-weight: bold;
+  background: #ffffff;
+  box-shadow:5px 5px 5px rgba(0,0,0,0.2);
+}
 
 .profilepage h2{
   text-align: center;
 }
 
-/* Ikoner css */
+/* Ikoner css - css fra icomoon, for at få ikonerne til at virke*/
+
+/* ikke en style, men fra icomoon, så ikonerne kan virke på siden.
+Er klar over når, man validere koden, så vil den komme med fejl på linje 194*/
+
+
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?ncnsxu');
-  src:  url('fonts/icomoon.eot?ncnsxu#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?ncnsxu') format('truetype'),
-    url('fonts/icomoon.woff?ncnsxu') format('woff'),
-    url('fonts/icomoon.svg?ncnsxu#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?enb7ro');
+  src:  url('fonts/icomoon.eot?enb7ro#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?enb7ro') format('truetype'),
+    url('fonts/icomoon.woff?enb7ro') format('woff'),
+    url('fonts/icomoon.svg?enb7ro#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-
-
-/* ikke en style, men fra icomoon, så ikonerne kan virke på siden.
-Er klar over når, man validere koden, så vil den komme med fejl på linje 194*/
-
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
   line-height: 1;
 
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-butik:before {
+.icon-tilbud9:before {
   content: "\e900";
 }
 .icon-hjem2:before {

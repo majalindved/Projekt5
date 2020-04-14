@@ -1,4 +1,4 @@
-//Når man scroller ned fra 50px fra toppen, vil headerens font size blive mindre 
+//Når man scroller ned fra 50px fra toppen, vil headerens font size blive mindre
 window.onscroll = function() {scrollFunction()};
 
 var header = document.getElementById("header");
