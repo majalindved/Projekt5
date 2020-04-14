@@ -282,22 +282,22 @@ body {
 }
 
 /* Ikoner css - css fra icomoon, for at få ikonerne til at virke*/
+
+/* ikke en style, men fra icomoon, så ikonerne kan virke på siden.
+Er klar over når, man validere koden, så vil den komme med fejl på linje 194*/
+
+
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?ncnsxu');
-  src:  url('fonts/icomoon.eot?ncnsxu#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?ncnsxu') format('truetype'),
-    url('fonts/icomoon.woff?ncnsxu') format('woff'),
-    url('fonts/icomoon.svg?ncnsxu#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?enb7ro');
+  src:  url('fonts/icomoon.eot?enb7ro#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?enb7ro') format('truetype'),
+    url('fonts/icomoon.woff?enb7ro') format('woff'),
+    url('fonts/icomoon.svg?enb7ro#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
-
-
-
-/* ikke en style, men fra icomoon, så ikonerne kan virke på siden.
-Er klar over når, man validere koden, så vil den komme med fejl på linje 194*/
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
@@ -310,7 +310,7 @@ Er klar over når, man validere koden, så vil den komme med fejl på linje 194*
 
 }
 
-.icon-butik:before {
+.icon-tilbud9:before {
   content: "\e900";
 }
 .icon-hjem2:before {
