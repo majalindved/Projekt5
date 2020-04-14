@@ -281,7 +281,7 @@ body {
   text-align: center;
 }
 
-/* Ikoner css */
+/* Ikoner css - css fra icomoon, for at få ikonerne til at virke*/
 @font-face {
   font-family: 'icomoon';
   src:  url('fonts/icomoon.eot?ncnsxu');
