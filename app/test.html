@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Produkter</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>
+                Produkter
+            </h1>
+        </div>
+
+        <input type="text" id="filterInput" placeholder="Søg efter en vare..">
+    <section id="alle-kategorier">        
+        <section class="container content-section">
+            <h2 class="kategori">Grønt og frugt</h2>
+            <ul class="shop-items">
+                <li class="shop-item">
+                    <span class="shop-item-title">Agurk</span>
+                    <img class="shop-item-image" src="Images/1.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">12.99 kr.</span>
+                        <button class="btn btn-primary shop-item-button" type="button">Tilføj</button>
+                    </div>
+                </li>
+                <li class="shop-item">
+                    <span class="shop-item-title">Banan</span>
+                    <img class="shop-item-image" src="Images/2.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">14.99 kr.</span>
+                        <button class="btn btn-primary shop-item-button"type="button">Tilføj</button>
+                    </div>
+                </li>
+                <li class="shop-item">
+                    <span class="shop-item-title">Iceberg salat</span>
+                    <img class="shop-item-image" src="Images/3.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">9.99 kr.</span>
+                        <button class="btn btn-primary shop-item-button" type="button">Tilføj</button>
+                    </div>
+                </li>
+                <li class="shop-item">
+                    <span class="shop-item-title">Æble</span>
+                    <img class="shop-item-image" src="Images/4.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">19.99 kr.</span>
+                        <button class="btn btn-primary shop-item-button" type="button">Tilføj</button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </section>    
+        <script>
+            // Get input element
+            let filterInput = document.getElementById('filterInput');
+            // Add event listener
+            filterInput.addEventListener('keyup', filterNames);
+
+            function filterNames(){
+                // Get value of input
+                let filterValue = document.getElementById('filterInput').value.toUpperCase();
+
+            // Get names ul
+                let ul = document.getElementById('alle-kategorier');
+            // Get lis from ul
+                let li = ul.querySelectorAll('li.shop-item');
+
+            // Loop through collection-item lis
+                for(let i = 0;i < li.length;i++){
+                let a = li[i].getElementsByTagName('span')[0];
+            // If matched
+                if(a.innerHTML.toUpperCase().indexOf(filterValue) > -1){
+                li[i].style.display = '';
+            }   else {
+                li[i].style.display = 'none';
+        }
+      }
+
+    }
+        </script>
+    </body>
+</html>
