@@ -1,5 +1,5 @@
 * {
-    font-family: "Raleway", sans-serif; 
+    font-family: "Raleway", sans-serif;
 }
 
 /* Style the buttons inside the tab */
@@ -65,7 +65,7 @@ div[class*="tabcontent"]:first-of-type {
 code {
     padding: 0;
     margin: 0;
-    font-family: monospace    
+    font-family: monospace
 }
 
 #codeblue {
@@ -126,7 +126,7 @@ code {
 }
 
 #titel {
-    padding: 10px;    
+    padding: 10px;
     border: 0px;
 }
 
