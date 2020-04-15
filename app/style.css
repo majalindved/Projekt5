@@ -527,7 +527,7 @@ input[type=text], input[type=password]{
 
 /*Profilepage*/
 #header + .profilepage h2{
-  padding-top: 50px;
+  padding-top: 80px;
   text-align: center;
 }
 
@@ -754,7 +754,7 @@ div[class*="tabcontent"]:first-of-type {
     border: none;
     border-radius: 5px;
     color: #000000;
-    margin-bottom: 0px; 
+    margin-bottom: 0px;
 }
 
 #filterInput::placeholder {
