@@ -327,5 +327,42 @@
     <section id="afslut">
         <button class="afslut" onclick="window.location.reload();">Afslut</button>
     </section>
+    <nav class="nav">
+        <a href="hjem.html" class="nav__link nav__link--active">
+            <i class="icon-hjem2 nav__icon"></i>
+            <span class="nav__text">Hjem</span>
+        </a>
+        <a href="store.html" class="nav__link">
+            <i class="icon-liste2 nav__icon"></i>
+            <span class="nav__text">Lister</span>
+        </a>
+       <!-- // Knappen til genvej at lave en indkøbsliste. Kommer et modal popup //  -->
+
+       <button id="modal-btn" class="button">
+        <i class="icon-plus1 nav__icon"></i></button>
+            <div id="my-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                  <div class="modal-body">
+                    <p>Du er i gang med at oprette en ny liste.
+                        <br>
+                        <br>
+                        Vil du fortsætte?</p>
+                      <a href="indk.html" class="button_modal">Ja</a>
+                      <a href="hjem.html" class="button_modal1">Nej</a>
+                  </div>
+                </div>
+              </div>
+               <script src="main.js"></script>
+
+               <a href="#" class="nav__link">
+            <i class="icon-tilbud9 nav__icon"></i>
+            <span class="nav__text">Tilbud</span>
+        </a>
+        <a href="profil.html" class="nav__link">
+            <i class="icon-profil2 nav__icon"></i>
+            <span class="nav__text">Profil</span>
+        </a>
+    </nav>
     </body>
 </html>
