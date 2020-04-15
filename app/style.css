@@ -200,6 +200,11 @@
 }
 
 /*Opret profil*/ 
+.container-opop{
+    min-height: 100vh; 
+    background-color: #F8F7F4;
+}
+
 .form-op{
     background-color: #F8F7F4;
     height: 100%;
@@ -307,6 +312,7 @@ input[type=text], input[type=password]{
     display: flex; 
     justify-content: center;
     align-items: center; 
+    padding-bottom: 30px; 
 }
 
 .bottom-op img{
