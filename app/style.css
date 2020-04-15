@@ -68,6 +68,7 @@
 .bottom-index{  
     display: flex; 
     justify-content: center; 
+    margin-top: 100px; 
 }
 
 .bottom-index p{
@@ -128,7 +129,7 @@
 /*Opret profil*/ 
 .form-op{
     background-color: #F8F7F4;
-    height: 100vh;
+    height: 100%;
 }
 
 .header-container-op{
