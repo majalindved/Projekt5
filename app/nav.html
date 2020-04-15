@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="da-DK">
+<head>
+    <title>Navigation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+</head>
+    <body>
+    <!-- Header-->
+   <div id="header">Hjem</div>
+   <!-- Frontpage-->
+<div class="welcome">
+  <h1>Velkommen</h1>
+  <p>Hos Coop indkøbslister vil vi gøre det nemt for dig at planlægge dine indkøb. Vi har samlet en masse lækre opskrifter, så du kan få inspiration til aftensmad, madpakker eller andre snacks.
+</p>
+<div class="button-inspiration">
+    <button class="btn-inspi btn-hvid"><a href="">Se alle opskrifter</a></button>
+</div>
+    
+</div>
+<div class="tekst">
+    <h4>Den sjove madpakke</h4>
+</div>
+   <div class="row1">
+    <div class="column1">
+      <img src="images/madpakke.jpg" alt="Et billede af sandwich">
+    </div>
+    <div class="column1">
+      <img src="images/madpakke_1.jpg" alt="Et billede af forskellige madkasser, og deres indhold">
+    </div>
+    <div class="column1">
+      <img src="images/madpakke_2.jpg" alt="Et billede af en pastaret">
+    </div>
+  </div>
+
+
+  <div class="tekst">
+  <h4>Aftensmad</h4>
+
+</div>
+
+  <div class="row1">
+    <div class="column1">
+      <img src="images/aftensmad_1.jpg" alt="Et billede af en pizza med ost">
+    </div>
+    <div class="column1">
+      <img src="images/aftensmad_2.jpg" alt="Et billede af en salatret med kød">
+    </div>
+    <div class="column1">
+      <img src="images/aftensmad_3.jpg" alt="Et billede af en risburger">
+    </div>
+  </div>
+
+
+  <div class="tekst">
+  <h4>Lækre desserter</h4>
+  </div>
+
+  <div class="row1">
+    <div class="column1">
+      <img src="images/dessert_1.jpg" alt="Et billede af chokolade cupcakes">
+    </div>
+    <div class="column1">
+      <img src="images/dessert_4.jpg" alt="Et billede af cupcakes">
+    </div>
+    <div class="column1">
+      <img src="images/dessert_3.jpg" alt="Et billede af en tærte">
+    </div>
+  </div>
+    <nav class="nav">
+        <a href="nav.html" class="nav__link nav__link--active">
+            <i class="icon-hjem2 nav__icon"></i>
+            <span class="nav__text">Hjem</span>
+        </a>
+        <a href="indk.html" class="nav__link">
+            <i class="icon-liste2 nav__icon"></i>
+            <span class="nav__text">Lister</span>
+        </a>
+       <!-- // Knappen til genvej at lave en indkøbsliste. Kommer et modal popup //  -->
+
+       <button id="modal-btn" class="button">
+        <i class="icon-plus1 nav__icon"></i></button>
+            <div id="my-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                  <div class="modal-body">
+                    <p>Du er i gang med at oprette en ny liste.
+                        <br>
+                        <br>
+                        Vil du fortsætte?</p>
+                      <a href="indk.html" class="button_modal">Ja</a>
+                      <a href="nav.html" class="button_modal1">Nej</a>
+                  </div>
+                </div>
+              </div>
+               <script src="main.js"></script>
+
+               <a href="#" class="nav__link">
+            <i class="icon-tilbud9 nav__icon"></i>
+            <span class="nav__text">Tilbud</span>
+        </a>
+        <a href="profil.html" class="nav__link">
+            <i class="icon-profil2 nav__icon"></i>
+            <span class="nav__text">Profil</span>
+        </a>
+    </nav>
+
+    </body>
+</html>
