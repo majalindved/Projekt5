@@ -1,46 +1,46 @@
 @media screen and (max-width: 823px) and (min-width: 415px){
-    
+
 * {
-    font-family: "Raleway", sans-serif; 
+    font-family: "Raleway", sans-serif;
 }
 
 html, body {
-    margin: 0; height: 100%; 
+    margin: 0; height: 100%;
     overflow: hidden;
 }
 
 
 img {
     width: 15vw;
-    border-radius: 5px; 
-}  
-    
-.content-section {   
+    border-radius: 5px;
+}
+
+.content-section {
     width: 15vw;
     margin-top: 5vh;
-}    
-    
+}
+
 .cart-row {
     position: relative;
     left: 25vw;
     padding: 0;
     text-align: center;
     width: 15vw;
-}       
-    
+}
+
 .cart-row .cart-item {
     background: #ffffff;
     border-radius: 5px;
-    box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.36);      
-}    
-    
-.cart-row .cart-item span {    
+    box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.36);
+}
+
+.cart-row .cart-item span {
     display: block;
     width: 15vw;
     font-weight: bold;
     height: 10vh
-   
-}    
+
+}
 
 .cart-row input {
     display: none;
@@ -59,12 +59,12 @@ btn-boern {
     height: 20vw;
     width: 15vw;
     margin-bottom: 13vh;
-    margin-top: 4vh;    
+    margin-top: 4vh;
     opacity: 0.0;
-    z-index: +1;    
+    z-index: +1;
 }
 
-#wrapper {   
+#wrapper {
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -81,7 +81,7 @@ btn-boern {
     justify-content: center;
     background-image: url("Images/baggrund.png");
     background-repeat: no-repeat;
-    background-size: 100vw, 0;    
+    background-size: 100vw, 0;
     }
 
 #innerkurv{
@@ -107,7 +107,7 @@ btn-boern {
 #activeimg {
     width: 20vw;
     height: 20vw;
-    margin-top: 10vh;    
+    margin-top: 10vh;
     background-color: red;
 }
 
@@ -119,16 +119,16 @@ btn-boern {
     border: red solid 5px;
     border-radius: 5px;
     display: none;
-    margin-top: 4vh; 
+    margin-top: 4vh;
 }
 
 #active {
-    margin-top: 10vh; 
+    margin-top: 10vh;
     position: absolute;
     left: 0vw;
     width: 20vw;
     height: 20vw;
-    opacity: 0.0; 
+    opacity: 0.0;
 }
 
 #afslut {
@@ -136,28 +136,28 @@ btn-boern {
     display: flex;
     justify-content: center;
     z-index: +2;
-}  
+}
 
 .afslut {
     width: 20vw;
     height: 10vw;
     font-size: 4vw;
-    color: #ffffff;    
-    background-color: #73ae5f;    
+    color: #ffffff;
+    background-color: #73ae5f;
     border-radius: 5px;
     border-style: none;
-    font-weight: bold;  
-    box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.36);     
+    font-weight: bold;
+    box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.36);
 }
-    
+
 .afslut:active {
-    background-color: #90ae3c;  
-}    
-    
+    background-color: #90ae3c;
+}
+
 .alert {
         display: none;
 }
-    
+
 #header {
     background-color: #C31414;
     height: 15vh;
@@ -173,85 +173,86 @@ btn-boern {
     display: block;
     padding: 0;
     margin: 0;
-} 
+}
 
 #header div{
     display: none;;
-}     
-    
+}
+
+
 }
 
 @media screen and (min-width: 824px) {
-    
+
 * {
-    font-family: "Raleway", sans-serif; 
+    font-family: "Raleway", sans-serif;
 }
 
 html, body {margin: 0; height: 100%; overflow: hidden}
-    
+
     #alle-kategorier {
         display: none;
     }
-    
+
     #wrapper {
         display: none;
-    }    
-    
+    }
+
     #links {
         display: none;
-    }    
-    
+    }
+
     #indkoebsliste {
         display: none;
-    }  
-    
+    }
+
     #afslut {
         display: none;
-    }     
-    
+    }
+
     #activediv {
         display: none;
-    }  
+    }
     #header {
         display: none;
-    }    
-       
-    
-    
+    }
+
+
+
 }
 
 @media screen and (max-width: 415px) {
-    
+
 * {
-    font-family: "Raleway", sans-serif; 
+    font-family: "Raleway", sans-serif;
 }
 
-html, body {margin: 0; height: 100%; overflow: hidden}    
-    
+html, body {margin: 0; height: 100%; overflow: hidden}
+
     #alle-kategorier {
         display: none;
     }
-    
+
     #wrapper {
         display: none;
-    }    
-    
+    }
+
     #links {
         display: none;
-    }    
-    
+    }
+
     #indkoebsliste {
         display: none;
-    }  
-    
+    }
+
     #afslut {
         display: none;
-    }     
-    
+    }
+
     #activediv {
         display: none;
-    }   
-    
+    }
+
     #header {
         display: none;
     }
@@ -283,7 +284,7 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 
 #target1 .cart-row span {
     font-weight: 100;
-    margin-top: 6vh;  
+    margin-top: 6vh;
     width: 20vw;
     text-align: none;
 }
@@ -297,7 +298,7 @@ html, body {margin: 0; height: 100%; overflow: hidden}
     background-color:rgba(255,0,0,0.0);
 }
 
-#target1 .content-section {   
+#target1 .content-section {
     width: 0vw;
     margin-top: 0vh;
 }
@@ -308,8 +309,8 @@ html, body {margin: 0; height: 100%; overflow: hidden}
     right: 65vw;
     background-color: #ffffff;
     position: absolute;
-    overflow: auto; 
-    box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.36);      
+    overflow: auto;
+    box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.36);
 }
 
 #target1 .cart-item{
@@ -329,8 +330,8 @@ html, body {margin: 0; height: 100%; overflow: hidden}
     left: 0vw;
     padding: 0;
     width: 30vw;
-    display: flex;    
-} 
+    display: flex;
+}
 
 #alle-kategorier {
     display: none;
