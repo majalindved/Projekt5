@@ -280,6 +280,9 @@ input[type=text], input[type=password]{
 }
 
 /* Frontpage */
+.container-hjem{
+    margin-bottom: 55px; 
+}
 
 .row1 {
   display: flex;
@@ -331,7 +334,7 @@ input[type=text], input[type=password]{
     margin-bottom: 5px; 
     padding: 4px 12px; 
     cursor: pointer; 
-    width: 30%; 
+    width: 50%; 
 }
 
 .btn-hvid{  
