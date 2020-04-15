@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Coop</title>
+        <meta name="description" content="This is the description">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <link id="pagestyle" rel="stylesheet" type="text/css" href="style.css" />
+        <script src="store.js" async></script>    
+    </head>
+    <body>
+    <div id="header" class="header-produkter">
+        <p>Produkter</p> 
+        <div>    
+            <input type="text" id="filterInput" placeholder="Søg efter en vare..">
+            <a href="#">Færdig</a>
+        </div>
+    </div> 
+    <section id="alle-kategorier" class="welcome"> 
+        <div id="produkter" class="tabcontent">
+        <div class="container">
+        </div> 
+        <section class="container content-section">
+            <p class="kategori groent">Grønt og frugt</p>
+            <ul class="shop-items">
+                <li class="shop-item">
+                    <div class="shop-item-details">
+                        <div id="innerwrapper">
+                            <img class="shop-item-image" src="Images/iceberg.png">
+                            <ul id="spanwrapper">
+                            <li><span class="shop-item-title"><b>Iceberg Salat</b></span></li>
+                            <li><span class="shop-item-price">12.50 kr.</span></li>
+                            </ul>    
+                        </div>
+                        <button class="tn btn-primary shop-item-button" type="button">Tilføj</button>
+                    </div>   
+                </li>
+                <li class="shop-item">
+                    <div class="shop-item-details">
+                        <div id="innerwrapper">
+                            <img class="shop-item-image" src="Images/aeble.png">
+                            <ul id="spanwrapper">
+                            <li><span class="shop-item-title"><b>Pink Lady Æbler</b></span></li>
+                            <li><span class="shop-item-price">27.50 kr.</span></li>
+                            </ul>    
+                        </div>
+                        <button class="tn btn-primary shop-item-button" type="button">Tilføj</button>
+                    </div>   
+                </li>
+                <li class="shop-item">
+                    <div class="shop-item-details">
+                        <div id="innerwrapper">
+                            <img class="shop-item-image" src="Images/agurk.png">
+                            <ul id="spanwrapper">
+                            <li><span class="shop-item-title"><b>Øko Agurk</b></span></li>
+                            <li><span class="shop-item-price">8.50 kr.</span></li>
+                            </ul>    
+                        </div>
+                        <button class="tn btn-primary shop-item-button" type="button">Tilføj</button>
+                    </div>   
+                </li>
+                <li class="shop-item">
+                    <div class="shop-item-details">
+                        <div id="innerwrapper">
+                            <img class="shop-item-image" src="Images/banan.png">
+                            <ul id="spanwrapper">
+                            <li><span class="shop-item-title"><b>Øko Bananer</b></span></li>
+                            <li><span class="shop-item-price">15.95 kr.</span></li>
+                            </ul>    
+                        </div>
+                        <button class="tn btn-primary shop-item-button" type="button">Tilføj</button>
+                    </div>   
+                </li>
+            </ul>
+        </section>
+        <section class="container content-section">
+            <p class="kategori broed">Brød</p>
+            <ul class="shop-items">
+                <li class="shop-item">
+                    <div class="shop-item-details">
+                        <div id="innerwrapper">
+                            <img class="shop-item-image" src="Images/flute.png">
+                            <ul id="spanwrapper">
+                            <li><span class="shop-item-title"><b>Ciabatta Flute</b></span></li>
+                            <li><span class="shop-item-price">25.00 kr.</span></li>
+                            </ul>    
+                        </div>
+                        <button class="tn btn-primary shop-item-button" type="button">Tilføj</button>
+                    </div>   
+                </li>
+                <li class="shop-item">
+                    <div class="shop-item-details">
+                        <div id="innerwrapper">
+                            <img class="shop-item-image" src="Images/krydderboller.png">
+                            <ul id="spanwrapper">
+                            <li><span class="shop-item-title"><b>Krydderboller</b></span></li>
+                            <li><span class="shop-item-price">13.50 kr.</span></li>
+                            </ul>    
+                        </div>
+                        <button class="tn btn-primary shop-item-button" type="button">Tilføj</button>
+                    </div>   
+                </li>
+                <li class="shop-item">
+                    <div class="shop-item-details">
+                        <div id="innerwrapper">
+                            <img class="shop-item-image" src="Images/rugbroed.png">
+                            <ul id="spanwrapper">
+                            <li><span class="shop-item-title"><b>Mørkt Rugbrød</b></span></li>
+                            <li><span class="shop-item-price">8.25 kr.</span></li>
+                            </ul>    
+                        </div>
+                        <button class="tn btn-primary shop-item-button" type="button">Tilføj</button>
+                    </div>   
+                </li>
+                <li class="shop-item">
+                    <div class="shop-item-details">
+                        <div id="innerwrapper">
+                            <img class="shop-item-image" src="Images/skagensbr%C3%B8d.png">
+                            <ul id="spanwrapper">
+                            <li><span class="shop-item-title"><b>Skagensbrød</b></span></li>
+                            <li><span class="shop-item-price">23.95 kr.</span></li>
+                            </ul>    
+                        </div>
+                        <button class="tn btn-primary shop-item-button" type="button">Tilføj</button>
+                    </div>   
+                </li>
+            </ul>
+        </section>
+        <section class="container content-section">
+            <p class="kategori majeri">Majeri</p>
+            <ul class="shop-items">
+                <li class="shop-item">
+                    <div class="shop-item-details">
+                        <div id="innerwrapper">
+                            <img class="shop-item-image" src="Images/floede.png">
+                            <ul id="spanwrapper">
+                            <li><span class="shop-item-title"><b>Madlavningsfløde</b></span></li>
+                            <li><span class="shop-item-price">10.50 kr.</span></li>
+                            </ul>    
+                        </div>
+                        <button class="tn btn-primary shop-item-button" type="button">Tilføj</button>
+                    </div>   
+                </li>
+                <li class="shop-item">
+                    <div class="shop-item-details">
+                        <div id="innerwrapper">
+                            <img class="shop-item-image" src="Images/pikant.png">
+                            <ul id="spanwrapper">
+                            <li><span class="shop-item-title"><b>Pikant Ost</b></span></li>
+                            <li><span class="shop-item-price">21.95 kr.</span></li>
+                            </ul>    
+                        </div>
+                        <button class="tn btn-primary shop-item-button" type="button">Tilføj</button>
+                    </div>   
+                </li>
+                <li class="shop-item">
+                    <div class="shop-item-details">
+                        <div id="innerwrapper">
+                            <img class="shop-item-image" src="Images/soedmaelk.png">
+                            <ul id="spanwrapper">
+                            <li><span class="shop-item-title"><b>Sødmælk</b></span></li>
+                            <li><span class="shop-item-price">9.50 kr.</span></li>
+                            </ul>    
+                        </div>
+                        <button class="tn btn-primary shop-item-button" type="button">Tilføj</button>
+                    </div>   
+                </li>
+                <li class="shop-item">
+                    <div class="shop-item-details">
+                        <div id="innerwrapper">
+                            <img class="shop-item-image" src="Images/yoghurt.png">
+                            <ul id="spanwrapper">
+                            <li><span class="shop-item-title"><b>Xtra Yoghurt</b></span></li>
+                            <li><span class="shop-item-price">10.50 kr.</span></li>
+                            </ul>    
+                        </div>
+                        <button class="tn btn-primary shop-item-button" type="button">Tilføj</button>
+                    </div>   
+                </li>
+            </ul>
+        </section>
+        <section class="container content-section">
+            <p class="kategori koed">Kød, fisk og fjerkræ</p>
+            <ul class="shop-items">
+                <li class="shop-item">
+                    <div class="shop-item-details">
+                        <div id="innerwrapper">
+                            <img class="shop-item-image" src="Images/oksekoed.png">
+                            <ul id="spanwrapper">
+                            <li><span class="shop-item-title"><b>Hakket Oksekød</b></span></li>
+                            <li><span class="shop-item-price">38.50 kr.</span></li>
+                            </ul>    
+                        </div>
+                        <button class="tn btn-primary shop-item-button" type="button">Tilføj</button>
+                    </div>   
+                </li>
+                <li class="shop-item">
+                    <div class="shop-item-details">
+                        <div id="innerwrapper">
+                            <img class="shop-item-image" src="Images/hamburgerryg.png">
+                            <ul id="spanwrapper">
+                            <li><span class="shop-item-title"><b>Hamburgerryg</b></span></li>
+                            <li><span class="shop-item-price">132.00 kr.</span></li>
+                            </ul>    
+                        </div>
+                        <button class="tn btn-primary shop-item-button" type="button">Tilføj</button>
+                    </div>   
+                </li>
+                <li class="shop-item">
+                    <div class="shop-item-details">
+                        <div id="innerwrapper">
+                            <img class="shop-item-image" src="Images/kyllingefilet.png">
+                            <ul id="spanwrapper">
+                            <li><span class="shop-item-title"><b>Kyllingefilet</b></span></li>
+                            <li><span class="shop-item-price">49.00 kr.</span></li>
+                            </ul>    
+                        </div>
+                        <button class="tn btn-primary shop-item-button" type="button">Tilføj</button>
+                    </div>   
+                </li>
+                <li class="shop-item">
+                    <div class="shop-item-details">
+                        <div id="innerwrapper">
+                            <img class="shop-item-image" src="Images/roedspaettefilet.png">
+                            <ul id="spanwrapper">
+                            <li><span class="shop-item-title"><b>Rødspættefilet</b></span></li>
+                            <li><span class="shop-item-price">34.95 kr.</span></li>
+                            </ul>    
+                        </div>
+                        <button class="tn btn-primary shop-item-button" type="button">Tilføj</button>
+                    </div>   
+                </li>
+            </ul>
+        </section>
+        <section class="container content-section">
+            <p class="kategori kolonial">Kolonial</p>
+            <ul class="shop-items">
+                <li class="shop-item">
+                    <div class="shop-item-details">
+                        <div id="innerwrapper">
+                            <img class="shop-item-image" src="Images/cirkelkaffe.png">
+                            <ul id="spanwrapper">
+                            <li><span class="shop-item-title"><b>Cirkel Kaffe</b></span></li>
+                            <li><span class="shop-item-price">52.95 kr.</span></li>
+                            </ul>    
+                        </div>
+                        <button class="tn btn-primary shop-item-button" type="button">Tilføj</button>
+                    </div>   
+                </li>
+                <li class="shop-item">
+                    <div class="shop-item-details">
+                        <div id="innerwrapper">
+                            <img class="shop-item-image" src="Images/mel.png">
+                            <ul id="spanwrapper">
+                            <li><span class="shop-item-title"><b>Hvedemel</b></span></li>
+                            <li><span class="shop-item-price">14.50 kr.</span></li>
+                            </ul>    
+                        </div>
+                        <button class="tn btn-primary shop-item-button" type="button">Tilføj</button>
+                    </div>   
+                </li>
+                <li class="shop-item">
+                    <div class="shop-item-details">
+                        <div id="innerwrapper">
+                            <img class="shop-item-image" src="Images/te.png">
+                            <ul id="spanwrapper">
+                            <li><span class="shop-item-title"><b>Orange Te</b></span></li>
+                            <li><span class="shop-item-price">39.50 kr.</span></li>
+                            </ul>    
+                        </div>
+                        <button class="tn btn-primary shop-item-button" type="button">Tilføj</button>
+                    </div>   
+                </li>
+                <li class="shop-item">
+                    <div class="shop-item-details">
+                        <div id="innerwrapper">
+                            <img class="shop-item-image" src="Images/sukker.png">
+                            <ul id="spanwrapper">
+                            <li><span class="shop-item-title"><b>Sukker</b></span></li>
+                            <li><span class="shop-item-price">23.95 kr.</span></li>
+                            </ul>    
+                        </div>
+                        <button class="tn btn-primary shop-item-button" type="button">Tilføj</button>
+                    </div>   
+                </li>
+            </ul>
+        </section>
+        </div>   
+    </section>  
+    <section id="wrapper">
+        <section id="indkoebsliste" class="container content-section tabcontent indkoebsliste">
+            <button id="Mydiv" class="btn-boern" onclick="swapStyleSheet('boern.css')">Børne mode - Klik her</button>
+                <div class="cart-row">
+                    <span class="cart-item cart-header cart-column">Vare:</span>
+                    <span class="cart-price cart-header cart-column">Pris:</span>
+                    <span class="cart-quantity cart-header cart-column">Antal:</span>
+                </div>
+                <div class="cart-items">
+                </div>
+                <div class="cart-total">
+                    <div>&nbsp;</div>
+                    <strong class="cart-total-title">Pris i alt:</strong>
+                    <span class="cart-total-price">0 kr.</span>
+                </div>
+        </section>    
+    <section id="links">    
+        <a href="#" class="tablinks" onclick="openTab(event, 'produkter')">Produkter</a>
+        <a href="#" class="tablinks active" onclick="openTab(event, 'indkoebsliste')">Indkøbsliste</a>   
+    </section>
+    <section id="indkoebsliste">
+        <div id="kurv">
+            <div id="innerkurv"><img src="Images/indkoebsvogn.png"></div>
+        </div>
+    </section>
+    <div id="activediv">
+        <div id="box1"></div>
+        <label class="container">
+            <button id="active" onclick="document.getElementById('box1').style.display='block'"></button>
+            <span class="checkmark"></span>
+        </label>
+    </div>        
+    <section class="alert">
+        <div>Drej skærmen</div>            
+    </section>
+    <section id="target1"></section>        
+    </section>
+    <section id="afslut">
+        <button class="afslut" onclick="window.location.reload();">Afslut</button>
+    </section>          
+    </body>
+</html>
