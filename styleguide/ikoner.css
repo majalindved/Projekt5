@@ -1,0 +1,142 @@
+* {
+    font-family: "Raleway", sans-serif; 
+}
+
+/* Style the buttons inside the tab */
+
+.tab {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.tab li {
+    float: left;
+}
+
+.tab a {
+    cursor: pointer;
+    padding: 5px 16px;
+    font-size: 16px;
+    border-radius: 3px 3px 0px 0px;
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Change background color of buttons on hover */
+.tab a:hover {
+    background-color: #f8f8f8;
+}
+
+/* Create an active/current tablink class */
+.tab a.active {
+    background-color: #f8f8f8;
+    box-shadow:inset 0px 1px 0px 1px #c31414;
+    border-bottom: none;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    border: solid 2px #c31414;
+    background: #f8f8f8;
+    padding: 0px 10px;
+    width: 991px;
+}
+
+div[class*="tabcontent"]:first-of-type {
+    display: block;
+}
+
+/* Style the tab content */
+#wrapper {
+    display: flex;
+}
+
+/* IKONER START */
+.ikoner {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+/* Højre side af sektionen .ikoner */
+code {
+    padding: 0;
+    margin: 0;
+    font-family: monospace    
+}
+
+#codeblue {
+    color: #446fbd;
+}
+
+#codeorange {
+    color: #eea101;
+}
+
+#codegreen {
+    color: #6d8600;
+}
+
+#kode_container {
+    padding: 39px 10px 39px 10px;
+    border-width: 2px 2px 2px 0px;
+    border-style: solid;
+    border-color: #c31414;
+    background: #f8f8f8;
+    margin-bottom: 10px;
+    width: 841px;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+/* Venstre side af sektionen .ikoner */
+
+.information {
+    text-align: center;
+    width: 200px;
+    margin-bottom: 10px;
+    border-width: 2px 0px 2px 2px;
+    border-style: solid;
+    border-color: #c31414;
+    background: #f8f8f8;
+}
+
+#informationodd {
+    background: #ffffff;
+}
+
+#informationeven {
+    background: #282828;
+    color: #ffffff;
+}
+
+.information div p{
+    padding: 0;
+    margin: 0;
+    font-family: monospace
+}
+
+.information div p{
+    padding: 0;
+    margin: 0;
+    font-family: monospace
+}
+
+#titel {
+    padding: 10px;    
+    border: 0px;
+}
+
+#indhold {
+    padding:0px 10px 10px 10px;
+}
+
+#indhold img {
+    height: 32px;
+    align-content: center;
+}
+
+/* IKONER SLUT */
