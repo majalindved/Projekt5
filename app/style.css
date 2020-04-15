@@ -574,14 +574,13 @@ input[type=text], input[type=password]{
 /* ikke en style, men fra icomoon, så ikonerne kan virke på siden.
 Er klar over når, man validere koden, så vil den komme med fejl på linje 194*/
 
-
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?enb7ro');
-  src:  url('fonts/icomoon.eot?enb7ro#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?enb7ro') format('truetype'),
-    url('fonts/icomoon.woff?enb7ro') format('woff'),
-    url('fonts/icomoon.svg?enb7ro#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?bt345d');
+  src:  url('fonts/icomoon.eot?bt345d#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?bt345d') format('truetype'),
+    url('fonts/icomoon.woff?bt345d') format('woff'),
+    url('fonts/icomoon.svg?bt345d#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -590,16 +589,23 @@ Er klar over når, man validere koden, så vil den komme med fejl på linje 194*
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
+  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
   line-height: 1;
 
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-tilbud9:before {
+.icon-pil:before {
   content: "\e900";
+}
+.icon-tilbud9:before {
+  content: "\e901";
 }
 .icon-hjem2:before {
   content: "\e908";
