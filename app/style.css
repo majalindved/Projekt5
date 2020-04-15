@@ -65,23 +65,96 @@
     outline: none; 
 }
 
-.bottom-index{  
-    display: flex; 
-    justify-content: center; 
-    margin-top: 100px; 
-}
-
-.bottom-index p{
-    font-size: 12px; 
-}
-
-.bottom-index p a{
+.button-bottom{
+    position: fixed;
+    left: 50%; 
+    bottom: 30px;
+    transform: translate(-50%);
+    font-size: 14px; 
+    font-family: inherit; 
+    border: 0; 
+    padding: 0;
     color: #333; 
     text-decoration: none; 
+    background-color: #F8F7F4;
+    cursor: pointer;
 }
 
-.bottom-index p a:active{
+.button-bottom a:active{
     font-weight: 600; 
+}
+
+/*Modal - Prøv app'en*/
+.modalindex{
+    position: fixed; 
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%) scale(0);
+    border: 1px solid rgba(204, 204, 204, 0.5);
+    border-radius: 5px;
+    z-index: 99; 
+    background-color: #fff; 
+    width: 70%;
+}
+
+.modalindex.active{
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-overskrift{
+    padding: 24px; 
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.modal-overskrift p{
+    position: relative; 
+    left: 50%; 
+    transform: translate(-50%);
+    font-size: 24px; 
+    font-weight: bold; 
+}
+
+.modal-close-button{
+    cursor: pointer; 
+    border: none; 
+    outline: none;
+    background: none; 
+    font-size: 30px; 
+    color: #CCC; 
+}
+
+.modal-tekst{
+    padding-bottom: 24px; 
+}
+
+.modal-tekst p{
+    padding: 0 36px 24px 36px;
+    padding-bottom: 24px;
+    font-size: 14px;
+}
+
+.modal-tekst button{
+    position: relative; 
+    left: 50%; 
+    transform: translate(-50%); 
+}
+
+#overlay{
+    position: fixed; 
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0; 
+    bottom: 0; 
+    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: none; 
+}
+
+#overlay.active{
+    pointer-events: all; 
+    opacity: 1; 
 }
 
 /*Success - profil oprettet*/ 
