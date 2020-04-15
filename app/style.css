@@ -255,10 +255,6 @@ input[type=text], input[type=password]{
     
 }
 
-* {
-    font-family: "Raleway", sans-serif; 
-}
-
 /* Style the tab content */
 .tabcontent {
     display: none;
