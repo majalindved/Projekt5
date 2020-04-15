@@ -1,7 +1,3 @@
-function goBack() {
-  window.history.back();
-}
-
 if (document.readyState == 'loading') {
     document.addEventListener('DOMContentLoaded', ready)
 } else {
@@ -147,7 +143,7 @@ function openTab (evt, tabName) {
 }
 
 function swapStyleSheet (sheet){
-   document.getElementById('pagestyle').setAttribute('href', sheet);
+   document.getElementById('pagestyle').setAttribute('href', sheet); 
 }
 
 window.addEventListener('mouseup', function(){
@@ -155,12 +151,13 @@ window.addEventListener('mouseup', function(){
     if(event.target != box) {
     box.style.display = 'none';
    }
-})
+})  
 
 document.getElementById("Mydiv").addEventListener("click", function(){
     let t1, div1, temp, div2
     t1 = document.getElementById('target1');
-
+    
     div1 = document.querySelector('#indkoebsliste');
         t1.appendChild(div1.cloneNode(true) );
 })
+

@@ -1,23 +1,23 @@
 *{
     font-family: "Raleway", sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 0; 
+    padding: 0; 
     box-sizing: border-box;
 }
 
 /*Index (Log ind)*/
 .form-index{
     background-color: #F8F7F4;
-    height: 100vh;
+    height: 100vh;  
 }
 
 .header-container-index{
-    text-align: center;
-    padding: 48px 0;
+    text-align: center; 
+    padding: 48px 0; 
 }
 
 .header-container-index img{
-    height: 40px;
+    height: 40px; 
 }
 
 .h1-index{
@@ -26,43 +26,43 @@
 }
 
 .container-index{
-    display: flex;
+    display: flex; 
     flex-direction: column;
-    padding: 20px 40px 40px;
+    padding: 20px 40px 40px; 
 }
 
 .glemt-password{
-    display: flex;
-    justify-content: center;
-    font-size: 12px;
-    padding-bottom: 12px;
+    display: flex; 
+    justify-content: center; 
+    font-size: 12px; 
+    padding-bottom: 12px; 
 }
 
 .glemt-password p a{
-    color: #333;
-    text-decoration: none;
+    color: #333; 
+    text-decoration: none; 
 }
 
 .glemt-password p a:active{
-    font-weight: 600;
+    font-weight: 600; 
 }
 
 .buttons-index{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
 }
 
 .btn-index{
-    padding: 12px;
-    margin: 8px 0 16px;;
-    cursor: pointer;
-    width: 60%;
+    padding: 12px; 
+    margin: 8px 0 16px;; 
+    cursor: pointer; 
+    width: 60%; 
 }
 
 .btn-index:active{
-    font-weight: 600;
-    outline: none;
+    font-weight: 600; 
+    outline: none; 
 }
 
 .button-bottom{
@@ -155,62 +155,63 @@
 #overlay.active{
     pointer-events: all; 
     opacity: 1; 
+}
 
-/*Success - profil oprettet*/
+/*Success - profil oprettet*/ 
 .success{
-    background-color: #F8F7F4;
-    height: 100vh;
+    background-color: #F8F7F4; 
+    height: 100vh; 
 }
 
 .success-icon{
-    padding: 200px 0 0;
-    font-size: 100px;
-    display: flex;
-    justify-content: center;
+    padding: 200px 0 0; 
+    font-size: 100px; 
+    display: flex; 
+    justify-content: center; 
 }
 
 .fa-check-circle {
-    color: #12872A;
+    color: #12872A; 
 }
 
 .success-tekst{
-    display: flex;
+    display: flex; 
     justify-content: center;
-    text-align: center;
-    padding: 12px 0 150px;
+    text-align: center; 
+    padding: 12px 0 150px; 
 }
 
 .buttons-success{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
 }
 
 .btn-success{
-    padding: 12px;
-    margin: 8px 0 16px;;
-    cursor: pointer;
-    width: 60%;
+    padding: 12px; 
+    margin: 8px 0 16px;; 
+    cursor: pointer; 
+    width: 60%; 
 }
 
 .btn-success:active{
-    font-weight: 600;
-    outline: none;
+    font-weight: 600; 
+    outline: none; 
 }
 
-/*Opret profil*/
+/*Opret profil*/ 
 .form-op{
     background-color: #F8F7F4;
     height: 100%;
 }
 
 .header-container-op{
-    text-align: center;
-    padding: 24px 0 0;
+    text-align: center; 
+    padding: 24px 0 0; 
 }
 
 .header-container-op img{
-    height: 40px;
+    height: 40px; 
 }
 
 .h1-op{
@@ -219,112 +220,112 @@
 }
 
 .container-op{
-    display: flex;
+    display: flex; 
     flex-direction: column;
-    padding: 20px 40px 40px;
+    padding: 20px 40px 40px; 
 }
 
 label{
-    font-size: 12px;
+    font-size: 12px; 
 }
 
 input[type=text], input[type=password]{
     width: 100%;
-    padding: 12px;
-    margin: 5px 0 20px;
-    display: inline-block;
+    padding: 12px; 
+    margin: 5px 0 20px; 
+    display: inline-block; 
     background-color: #fff;
-    border-radius: 5px;
-    font-size: 12px;
-    border: 1px solid rgba(204, 204, 204, 0.5);
-    outline: none;
+    border-radius: 5px; 
+    font-size: 12px; 
+    border: 1px solid rgba(204, 204, 204, 0.5); 
+    outline: none; 
 }
 
 ::placeholder{
-    font-size: 12px;
-    color: #ccc;
+    font-size: 12px; 
+    color: #ccc; 
 }
 
 /*Internet explorer*/
 :-ms-input-placeholder{
-    font-size: 12px;
+    font-size: 12px; 
     color: #ccc;
 }
 
 /*Microsoft edge*/
 ::-ms-input-placeholder{
-    font-size: 12px;
+    font-size: 12px; 
     color: #ccc;
 }
 
 .nyhedsmail-op{
-    margin-bottom: 40px;
+    margin-bottom: 40px; 
 }
 
 .buttons-op{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
 }
 
 .btn-op{
-    padding: 12px;
-    margin: 8px 0 16px;
-    cursor: pointer;
-    width: 60%;
+    padding: 12px; 
+    margin: 8px 0 16px; 
+    cursor: pointer; 
+    width: 60%; 
 }
 
 .btn-roed{
     background-color: #C31414;
-    color: #fff;
-    border-radius: 5px;
+    color: #fff; 
+    border-radius: 5px; 
     border: 2px solid #C31414;
 }
 
-.btn-hvid{
-    background-color: #fff;
-    border-radius: 5px;
+.btn-hvid{  
+    background-color: #fff; 
+    border-radius: 5px; 
     border: 2px solid #C31414;
 }
 
 .btn-roed a{
-    text-decoration: none;
-    color: #fff;
+    text-decoration: none; 
+    color: #fff; 
 }
 
 .btn-hvid a{
-    color: #C31414;
-    text-decoration: none;
+    color: #C31414; 
+    text-decoration: none; 
 }
 
 .btn-op:active{
-    font-weight: 600;
-    outline: none;
+    font-weight: 600; 
+    outline: none; 
 }
 
-.bottom-op{
-    display: flex;
+.bottom-op{ 
+    display: flex; 
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 }
 
 .bottom-op img{
-    height: 14px;
-    width: 14px;
+    height: 14px; 
+    width: 14px; 
 }
 
 .bottom-op p{
     font-size: 8px;
-    padding-left: 12px;
+    padding-left: 12px; 
 }
 
 .bottom-op p a{
-    color: #C31414;
-    text-decoration: none;
+    color: #C31414; 
+    text-decoration: none; 
 }
 
 .bottom-op p a:active{
-    font-weight: 600;
+    font-weight: 600; 
 }
 
 /*Header*/
@@ -353,7 +354,7 @@ input[type=text], input[type=password]{
 
 /* Frontpage */
 .container-hjem{
-    margin-bottom: 55px;
+    margin-bottom: 55px; 
 }
 
 .row1 {
@@ -366,7 +367,7 @@ input[type=text], input[type=password]{
   flex-wrap: wrap;
   padding: 5px;
   width: 100%;
-  height: auto;
+  height: auto; 
 }
 
 .column1 img{
@@ -377,16 +378,16 @@ input[type=text], input[type=password]{
 
 .welcome{
     margin-top: 30px;
-    padding: 0 20px;
+    padding: 0 20px; 
 }
 
 .welcome h1{
-    margin-bottom: 5px;
+    margin-bottom: 5px; 
 }
 
 .welcome p{
     font-size: 14px;
-    line-height: 20px;
+    line-height: 20px; 
     padding-bottom: 20px
 }
 
@@ -396,32 +397,32 @@ input[type=text], input[type=password]{
 
 .button-inspiration{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
-    padding-bottom: 10px;
+    padding-bottom: 10px; 
 }
 
 .btn-inspi{
-    margin-bottom: 5px;
-    padding: 4px 12px;
-    cursor: pointer;
-    width: 50%;
+    margin-bottom: 5px; 
+    padding: 4px 12px; 
+    cursor: pointer; 
+    width: 50%; 
 }
 
-.btn-hvid{
-    background-color: #fff;
-    border-radius: 5px;
+.btn-hvid{  
+    background-color: #fff; 
+    border-radius: 5px; 
     border: 2px solid #C31414;
 }
 
 .btn-hvid a{
-    color: #C31414;
-    text-decoration: none;
+    color: #C31414; 
+    text-decoration: none; 
 }
 
 .btn-inspi:active{
-    font-weight: 600;
-    outline: none;
+    font-weight: 600; 
+    outline: none; 
 }
 
 .tekst h4 , h5 {
@@ -599,7 +600,7 @@ input[type=text], input[type=password]{
 
 /*Profilepage*/
 #header + .profilepage h2{
-  padding-top: 80px;
+  padding-top: 50px;
   text-align: center;
 }
 
@@ -646,13 +647,14 @@ input[type=text], input[type=password]{
 /* ikke en style, men fra icomoon, så ikonerne kan virke på siden.
 Er klar over når, man validere koden, så vil den komme med fejl på linje 194*/
 
+
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?bt345d');
-  src:  url('fonts/icomoon.eot?bt345d#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?bt345d') format('truetype'),
-    url('fonts/icomoon.woff?bt345d') format('woff'),
-    url('fonts/icomoon.svg?bt345d#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?enb7ro');
+  src:  url('fonts/icomoon.eot?enb7ro#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?enb7ro') format('truetype'),
+    url('fonts/icomoon.woff?enb7ro') format('woff'),
+    url('fonts/icomoon.svg?enb7ro#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -661,23 +663,16 @@ Er klar over når, man validere koden, så vil den komme med fejl på linje 194*
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
   line-height: 1;
 
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-pil:before {
-  content: "\e900";
-}
 .icon-tilbud9:before {
-  content: "\e901";
+  content: "\e900";
 }
 .icon-hjem2:before {
   content: "\e908";
@@ -721,11 +716,11 @@ Er klar over når, man validere koden, så vil den komme med fejl på linje 194*
 
 div[class*="tabcontent"]:first-of-type {
     display: block;
-}
+} 
 
 .shop-items img {
     width: 20vw;
-    height: 20vw;
+    height: 20vw;    
     margin-top: -2.5vh;
 }
 
@@ -736,7 +731,7 @@ div[class*="tabcontent"]:first-of-type {
 
 #innerwrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
 #spanwrapper {
@@ -758,9 +753,9 @@ div[class*="tabcontent"]:first-of-type {
 .shop-items .shop-item-button  {
     padding: 0;
     margin: 0;
-    margin-top: 1vh;
+    margin-top: 1vh;  
     height: 7vw;
-    width: 20vw;
+    width: 20vw;  
     background-color: #73ae5f;
     border-radius: 5px;
     border-style: none;
@@ -782,23 +777,23 @@ div[class*="tabcontent"]:first-of-type {
 }
 
 .groent {
-  background: #73ae5f;
+  background: #73ae5f;   
 }
 
 .broed {
-  background: #db951e;
+  background: #db951e;   
 }
 
 .majeri {
-  background: #7daedb;
+  background: #7daedb;   
 }
 
 .koed {
-  background: #C31414;
+  background: #C31414;   
 }
 
 .kolonial {
-  background: #9a867d;
+  background: #9a867d;   
 }
 
 .header-produkter {
@@ -807,7 +802,7 @@ div[class*="tabcontent"]:first-of-type {
 }
 
 .header-produkter p {
-    text-align: center;
+    text-align: center; 
 }
 
 .header-produkter a {
@@ -832,7 +827,6 @@ div[class*="tabcontent"]:first-of-type {
     border: none;
     border-radius: 5px;
     color: #000000;
-    margin-bottom: 0px;
 }
 
 #filterInput::placeholder {
@@ -846,8 +840,8 @@ div[class*="tabcontent"]:first-of-type {
 
 .indkoebsliste img {
     width: 15vw;
-    height: 15vw;
-    padding-right: 10px;
+    height: 15vw; 
+    padding-right: 10px; 
 }
 
 .indkoebsliste .cart-row {
@@ -869,9 +863,9 @@ div[class*="tabcontent"]:first-of-type {
 }
 
 .indkoebsliste .cart-header {
-    font-weight: bold;
+    font-weight: bold; 
     margin-top: 1vh;
-    margin-bottom: 1vh;
+    margin-bottom: 1vh;    
 }
 
 .cart-row .cart-price {
@@ -889,7 +883,7 @@ div[class*="tabcontent"]:first-of-type {
 }
 .indkoebsliste .btn-boern {
     width: 100%;
-    height: auto;
+    height: auto;    
     font-size: 16px;
     padding: 10px;
 }
@@ -897,10 +891,10 @@ div[class*="tabcontent"]:first-of-type {
 .indkoebsliste button  {
     padding: 0;
     margin: 0;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
+    margin-top: 1vh;  
+    margin-bottom: 1vh;     
     height: 7vw;
-    width: 15vw;
+    width: 15vw;  
     background-color: #73ae5f;
     border-radius: 5px;
     border-style: none;
@@ -921,7 +915,7 @@ div[class*="tabcontent"]:first-of-type {
     display: grid;
     grid-template-columns: 4fr 2fr 1fr;
     font-size: 15px;
-    margin-top: 1vh;
+    margin-top: 1vh;    
 }
 
 .cart-total .cart-total-price {
