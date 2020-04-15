@@ -1,3 +1,6 @@
+function goBack() {
+  window.history.back();
+}
 
 if (document.readyState == 'loading') {
     document.addEventListener('DOMContentLoaded', ready)
